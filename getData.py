@@ -16,7 +16,9 @@ day_number  = 1 - 365 [Mukana hyppyvuosia]
 start = time.time()
 
 # LAM ID's in Pohjois Pohjanmaa Area
-lam_id_list_ppohjanmaa =  [1052, 1101, 1103, 1104]
+lam_id_list_ppohjanmaa =  [1052, 1101, 1103, 1104, 1105, 1121, 1123, 1124, 1201, 1202, 1203, 1204, 1205, 1221, 1222, 1223, 1224, 1225, 1226, 1227, 1228, 1229,
+                    1230, 1232, 1233, 1234, 1235, 1236, 1237, 1238, 1239, 1243, 1244, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1246,
+                    1257, 1301, 1302, 1303, 1321, 1322, 1323, 1324, 1325, 1326, 1327, 1328, 1329]
 
 name_of_the_file="lam_data_ppohjanmaa_1.csv"
 f = open(name_of_the_file, "w")  # create a file new file if the file does not exists, deletes old file if it exists
